@@ -1,0 +1,135 @@
+Algorithm prompt
+ 
+create a Shop – Product Sale & Billing System based on the following Feature Set
+
+Features:
+
+1. Customer Details
+   
+   - Customer ID
+   - Customer Name
+   - Contact Number
+
+2. Product Details
+   
+   - Product ID
+   - Product Name
+   - Product Price
+
+3. Quantity
+   
+   - Allow the user to enter the quantity purchased.
+
+4. Sale Calculation
+   
+   - Calculate the sale amount using:
+   - Sale Amount = Product Price × Quantity
+
+5. Bill Calculation
+   
+   - Calculate the total bill based on the sale amount.
+   - Display the complete bill with customer details, product details, quantity, sale amount, and total bill.
+
+Create the program with a simple, clear, beginner-friendly interface and code suitable for a college student.
+
+
+Flowchart prompt
+
+Create a clean, simple, beginner-friendly flowchart for a “Shop – Product Sale & Billing System”.
+
+Use standard flowchart symbols:
+
+- Oval → Start and Stop
+- Parallelogram → Input and Output
+- Rectangle → Processing/Calculation
+- Arrows → Show the flow from one step to the next
+
+Flowchart sequence:
+
+Start
+↓
+Enter Customer Details
+
+- Customer ID
+- Customer Name
+- Contact Number
+  ↓
+  Enter Product Details
+- Product ID
+- Product Name
+- Product Price
+  ↓
+  Enter Quantity
+  ↓
+  Calculate Sale Amount
+- Sale Amount = Product Price × Quantity
+  ↓
+  Calculate Total Bill
+- Total Bill = Sale Amount
+  ↓
+  Display Complete Bill
+- Customer ID
+- Customer Name
+- Contact Number
+- Product ID
+- Product Name
+- Product Price
+- Quantity
+- Sale Amount
+- Total Bill
+  ↓
+  Stop
+
+Make the flowchart vertical, neat, properly aligned, easy to read, and suitable for a college practical/project file. Use clear black arrows and simple text. Do not add unnecessary steps or decision boxes.
+
+ER Daigram prompt
+
+Create a simple and clear ER (Entity-Relationship) Diagram for a Shop – Product Sale & Billing System, suitable for a college student DBMS project.
+
+Use standard ER diagram notation:
+
+- Rectangle for Entity
+- Oval for Attributes
+- Diamond for Relationships
+- Underline the Primary Key attributes
+- Use clear connecting lines between entities, attributes, and relationships.
+
+Entities and Attributes:
+
+1. CUSTOMER
+
+- Customer_ID (Primary Key)
+- Customer_Name
+- Contact_Number
+
+2. PRODUCT
+
+- Product_ID (Primary Key)
+- Product_Name
+- Product_Price
+
+3. SALE
+
+- Sale_ID (Primary Key)
+- Quantity
+- Sale_Amount
+- Total_Bill
+
+Relationships:
+
+- CUSTOMER makes SALE
+- SALE contains PRODUCT
+
+Relationship Cardinality:
+
+- One CUSTOMER can make many SALEs.
+- One SALE can contain one or more PRODUCTs.
+- A PRODUCT can appear in many SALEs.
+
+Show the relationships clearly using diamonds:
+CUSTOMER → MAKES → SALE → CONTAINS → PRODUCT
+
+Make the ER diagram neat, simple, properly aligned, easy to understand, and suitable for a college practical/project file. Use only the required entities, attributes, relationships, and cardinalities. Avoid unnecessary advanced database concepts.
+
+
+
